@@ -99,7 +99,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url("../images/video-thumbnails/bg-LHP-HZ.jpeg") no-repeat;
+    background: url("../images/backgrounds/HZ/bg-LHP-HZ-AI-min.png") no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -251,4 +251,3 @@ header {
     transition: 0.3s;
 }
 
-/* HERE YE */
