@@ -72,7 +72,8 @@
                     </div>
                 </div>
             </div>
-            <a href="" class="play"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer</a>
+            <a href="#" class="play" onclick="toggleVideo();"
+                ><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer</a>
             <ul class="sci">
                 <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
@@ -81,8 +82,18 @@
             </ul>
         </div>
         <div class="trailer">
-            <video src="./assets/earth.mp4" muted controls="true" autoplay="true"></video>
-            <img class="close" src="./images/close-sign.png" alt=""/>
+            <video 
+                src="./assets/earth.mp4" 
+                muted controls="true" 
+                autoplay="true"
+                controls="true"
+            ></video>
+            <img 
+                class="close" 
+                src="./images/close-sign.png" 
+                alt="" 
+                onclick="toggleVideo();"
+            />
         </div>
         <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

@@ -298,8 +298,8 @@ header {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(20px);
-    /* visibility: hidden;
-    opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
     transition: 0.5s;
 }
 
